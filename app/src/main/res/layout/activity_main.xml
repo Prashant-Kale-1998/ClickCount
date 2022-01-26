@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        ></Button>
+
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnClick"
+        android:layout_marginStart="20dp"
+        android:text="Button Count"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnClick"
+        android:layout_alignRight="@+id/btnClick"
+        android:layout_marginStart="20dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/textBgCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCount"
+        android:layout_marginStart="20dp"
+        android:text="Background count"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtBgCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCount"
+        android:layout_alignRight="@+id/btnClick"
+        android:layout_marginStart="20dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+
+</RelativeLayout>
